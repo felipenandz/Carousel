@@ -14,6 +14,10 @@
 		20026A842321124A0060DFC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20026A822321124A0060DFC3 /* LaunchScreen.storyboard */; };
 		20026A8F2321124A0060DFC3 /* CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20026A8E2321124A0060DFC3 /* CarouselTests.swift */; };
 		20026A9A2321124A0060DFC3 /* CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20026A992321124A0060DFC3 /* CarouselUITests.swift */; };
+		20026AA92321128D0060DFC3 /* Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20026AA72321128C0060DFC3 /* Panel.swift */; };
+		20026AAA2321128D0060DFC3 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20026AA82321128D0060DFC3 /* Panel.xib */; };
+		20026AAD232113340060DFC3 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20026AAC232113340060DFC3 /* Carousel.swift */; };
+		20026AAF2321139F0060DFC3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20026AAE2321139F0060DFC3 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		20026A952321124A0060DFC3 /* CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20026A992321124A0060DFC3 /* CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselUITests.swift; sourceTree = "<group>"; };
 		20026A9B2321124A0060DFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20026AA72321128C0060DFC3 /* Panel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panel.swift; sourceTree = "<group>"; };
+		20026AA82321128D0060DFC3 /* Panel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
+		20026AAC232113340060DFC3 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		20026AAE2321139F0060DFC3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,14 @@
 		20026A78232112480060DFC3 /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				20026AAB232112920060DFC3 /* Panel */,
 				20026A79232112480060DFC3 /* AppDelegate.swift */,
 				20026A7B232112480060DFC3 /* ViewController.swift */,
 				20026A7D232112480060DFC3 /* Main.storyboard */,
 				20026A802321124A0060DFC3 /* Assets.xcassets */,
 				20026A822321124A0060DFC3 /* LaunchScreen.storyboard */,
 				20026A852321124A0060DFC3 /* Info.plist */,
+				20026AAC232113340060DFC3 /* Carousel.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -123,6 +133,16 @@
 				20026A9B2321124A0060DFC3 /* Info.plist */,
 			);
 			path = CarouselUITests;
+			sourceTree = "<group>";
+		};
+		20026AAB232112920060DFC3 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				20026AA72321128C0060DFC3 /* Panel.swift */,
+				20026AA82321128D0060DFC3 /* Panel.xib */,
+				20026AAE2321139F0060DFC3 /* Card.swift */,
+			);
+			path = Panel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,7 @@
 				20026A842321124A0060DFC3 /* LaunchScreen.storyboard in Resources */,
 				20026A812321124A0060DFC3 /* Assets.xcassets in Resources */,
 				20026A7F232112480060DFC3 /* Main.storyboard in Resources */,
+				20026AAA2321128D0060DFC3 /* Panel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				20026A7C232112480060DFC3 /* ViewController.swift in Sources */,
+				20026AA92321128D0060DFC3 /* Panel.swift in Sources */,
+				20026AAF2321139F0060DFC3 /* Card.swift in Sources */,
 				20026A7A232112480060DFC3 /* AppDelegate.swift in Sources */,
+				20026AAD232113340060DFC3 /* Carousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
