@@ -10,16 +10,22 @@ import UIKit
 
 class Panel: UICollectionViewCell {
 
+    @IBOutlet var background: UIView!
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
  
-        
-        
+        background.translatesAutoresizingMaskIntoConstraints = false
+        self.translatesAutoresizingMaskIntoConstraints = true
+        self.background.alpha = 0.5
         self.layer.cornerRadius = 10
-        self.alpha = 0.7
         
         
         
     }
+
+    
 
 }
