@@ -18,6 +18,7 @@
 		20026AAA2321128D0060DFC3 /* Panel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20026AA82321128D0060DFC3 /* Panel.xib */; };
 		20026AAD232113340060DFC3 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20026AAC232113340060DFC3 /* Carousel.swift */; };
 		20026AAF2321139F0060DFC3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20026AAE2321139F0060DFC3 /* Card.swift */; };
+		2006E51523223D570007BB21 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006E51423223D570007BB21 /* Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		20026AA82321128D0060DFC3 /* Panel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Panel.xib; sourceTree = "<group>"; };
 		20026AAC232113340060DFC3 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		20026AAE2321139F0060DFC3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2006E51423223D570007BB21 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				20026A822321124A0060DFC3 /* LaunchScreen.storyboard */,
 				20026A852321124A0060DFC3 /* Info.plist */,
 				20026AAC232113340060DFC3 /* Carousel.swift */,
+				2006E51423223D570007BB21 /* Layout.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				20026AAF2321139F0060DFC3 /* Card.swift in Sources */,
 				20026A7A232112480060DFC3 /* AppDelegate.swift in Sources */,
 				20026AAD232113340060DFC3 /* Carousel.swift in Sources */,
+				2006E51523223D570007BB21 /* Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9B4MUP9K5;
 				INFOPLIST_FILE = Carousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9B4MUP9K5;
 				INFOPLIST_FILE = Carousel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

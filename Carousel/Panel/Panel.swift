@@ -19,7 +19,7 @@ class Panel: UICollectionViewCell {
  
         background.translatesAutoresizingMaskIntoConstraints = false
         self.translatesAutoresizingMaskIntoConstraints = true
-        self.background.alpha = 0.5
+//        self.background.alpha = 0.5
         self.layer.cornerRadius = 10
         
         
